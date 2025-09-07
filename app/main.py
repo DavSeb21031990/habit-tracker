@@ -1,4 +1,5 @@
 from fastapi import FastAPI, APIRouter
+from app.interfaces import habit_router
 
 # Crea la estructura principal de FastAPI
 app = FastAPI(title="Habit Tracker API", version="0.1.0")
@@ -13,3 +14,4 @@ async def health() -> dict:
 
 # Agrega el router a app
 app.include_router(router)
+app.include_router(habit_router.router)

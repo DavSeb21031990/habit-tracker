@@ -1,4 +1,4 @@
-# Configuración Inicial
+uvi# Configuración Inicial
 ## Configurar entorno virtual con `venv`
 ### Crear y activar entorno virtual
 ```python title="Crear entorno virtual .venv"
